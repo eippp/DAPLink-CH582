@@ -1,14 +1,16 @@
-# Ch582 DAPLink
+# [DAPLink-Ch582](https://github.com/SoCXin/DAPLink-CH582)
 
-A CMSIS-DAP compliant debugger based on Ch582
+A [CMSIS-DAP](https://github.com/OS-Q/DAPLink) compliant debugger based on [Ch582F](https://item.szlcsc.com/3483855.html)
+
+编译环境依赖：[MounRiver Studio](http://mounriver.com/download)  
 
 ## Features
 
-* CMSIS-DAP V2.1
-* SWD
-* JTAG
-* UART
-* Connected & Running LED
+- [x] CMSIS-DAP V2.1
+- [x] SWD
+- [ ] JTAG
+- [ ] UART
+- [x] Connected & Running LED
 
 ## Usage
 
@@ -26,20 +28,3 @@ A CMSIS-DAP compliant debugger based on Ch582
 
 Notice that 3.3V level I/O is required.
 
-## Compile and download
-First clone the project, then use MounRiver Studio to compile and download it to the target board
-
-## Clone
-```
-
-git clone https://github.com/HaiMianBBao/CherryUSB-CH58x-DAPLink.git
-cd CherryUSB-CH58x-DAPLink
-git submodule update --init --recursive
-
-
-```
-
-## Renderings
-
-![DEBUG](img/debug.png)
-![UART](img/uart.jpg)
