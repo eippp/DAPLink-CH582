@@ -1,6 +1,6 @@
 # [DAPLink-Ch582](https://github.com/SoCXin/DAPLink-CH582)
 
-A [CMSIS-DAP](https://github.com/OS-Q/DAPLink) compliant debugger based on [Ch582F](https://item.szlcsc.com/3483855.html)
+[CMSIS-DAP](https://github.com/OS-Q/DAPLink) compliant debugger based on [Ch582F](https://item.szlcsc.com/3483855.html)
 
 编译环境依赖：[MounRiver Studio](http://mounriver.com/download)  
 
